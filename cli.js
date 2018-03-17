@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const inquirer 	= require('inquirer');
 const escExit 	= require('esc-exit');
 const fs 		= require('fs');

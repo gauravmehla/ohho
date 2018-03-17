@@ -4,7 +4,7 @@
   "description": "Fabulously run applications on mac.",
   "main": "index.js",
   "scripts": {
-    "start" : "node index.js"
+    "start": "node index.js"
   },
   "license": "MIT",
   "repository": "gauravmehla/ohho",
@@ -13,7 +13,6 @@
     "email": "gaurav.mehla@outlook.com",
     "url": "mehla.in"
   },
-  "license": "MIT",
   "dependencies": {
     "esc-exit": "^1.0.0",
     "inquirer": "^5.1.0",
@@ -34,5 +33,8 @@
     "run-app",
     "application",
     "execute"
-  ]
+  ],
+  "bin": {
+    "ohho": "cli.js"
+  }
 }
