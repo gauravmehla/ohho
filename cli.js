@@ -77,7 +77,7 @@ if( cli.input.length == 0 ) {
 	init();
 } else {
 	// Try to look for application. If found more than one, ask from user.
-	listApplications( cli.input.join(' ') )
+	listApplications( cli.input.join(' ').toLowerCase() )
 		.then( list => { 
 			if( list.length === 0 ) { 
 				console.log('❗️ ' + cli.input.join(' ') + ' not found on this system.') 

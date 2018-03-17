@@ -12,6 +12,8 @@ $ npm install --global ohho
 
 ## Usage
 
+Just write the application name after `ohho` and it will take care of the rest!
+
 ```
 $ ohho --help
 
@@ -34,7 +36,7 @@ $ ohho --help
 
 Run `ohho` without arguments to launch the interactive UI.
 
-#### Supported platform : MacOSX
+#### Supported platform :  MacOSX Only
 
 ## Created by
 
