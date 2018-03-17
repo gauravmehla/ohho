@@ -3,7 +3,8 @@
 Efficiently run Mac OSX Applications from the terminal
 
 ```
-Usage
+
+    Usage
       $ ohho <app_name>
  
     Options
@@ -15,4 +16,5 @@ Usage
     
     Run without arguments to use the interactive interface.
     The application name is case insensitive.
+
 ```
