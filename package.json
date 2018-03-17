@@ -1,16 +1,38 @@
 {
   "name": "ohho",
   "version": "1.0.0",
-  "description": "",
+  "description": "Fabulously run applications on mac.",
   "main": "index.js",
-  "scripts": {},
-  "keywords": [],
-  "author": "Gaurav Mehla <gaurav.mehla@outlook.com> (https://www.mehla.in/)",
+  "scripts": {
+    "start" : "node index.js"
+  },
+  "license": "MIT",
+  "repository": "gauravmehla/ohho",
+  "author": {
+    "name": "Gaurav Mehla",
+    "email": "gaurav.mehla@outlook.com",
+    "url": "mehla.in"
+  },
   "license": "MIT",
   "dependencies": {
     "esc-exit": "^1.0.0",
     "inquirer": "^5.1.0",
     "inquirer-autocomplete-prompt": "^0.12.2",
     "meow": "^4.0.0"
-  }
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "mac",
+    "osx",
+    "applications",
+    "app",
+    "run-app",
+    "application",
+    "execute"
+  ]
 }
