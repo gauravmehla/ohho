@@ -1,8 +1,19 @@
 # Ohho
 
-Efficiently run Mac OSX Applications from the terminal
+> Efficiently run Mac OSX Applications from the terminal
+
+
+## Install
 
 ```
+$ npm install --global ohho
+```
+
+
+## Usage
+
+```
+$ ohho --help
 
     Usage
       $ ohho <app_name>
@@ -18,3 +29,18 @@ Efficiently run Mac OSX Applications from the terminal
     The application name is case insensitive.
 
 ```
+
+## Interactive UI
+
+Run `ohho` without arguments to launch the interactive UI.
+
+####Supported platform : MacOSX
+
+## Created by
+
+- [Gaurav Mehla](https://mehla.in)
+
+
+## License
+
+MIT © [Gaurav Mehla](https://mehla.in)
