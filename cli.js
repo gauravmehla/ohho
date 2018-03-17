@@ -8,7 +8,12 @@ const meow 		= require('meow');
 // Applications warehouse in mac
 let appDir 		= '/Applications/';
 let appExt 		= '.app';
- 
+
+if( process.platform !== 'darwin' ) {
+	console.log('Currently only Mac OSX is supported');
+	process.exit();
+}
+
 const cli = meow(`
     Usage
       $ ohho <app_name>
