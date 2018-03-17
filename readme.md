@@ -34,7 +34,7 @@ $ ohho --help
 
 Run `ohho` without arguments to launch the interactive UI.
 
-####Supported platform : MacOSX
+#### Supported platform : MacOSX
 
 ## Created by
 
