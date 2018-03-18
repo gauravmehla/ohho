@@ -21,8 +21,8 @@ const cli = meow(`
       $ ohho <app_name>
  
     Options
-      --help 	View help docs
-      --version For current version
+      --help 		View help docs
+      --version 	For current version
  
     Examples
       $ ohho google chrome
@@ -30,6 +30,8 @@ const cli = meow(`
       $ ohho chrome
       $ ohho Google Chrome
       $ ohho "google chrome"
+      $ ohho sublime
+      $ ohho subl
 	
 	Run without arguments to use the interactive interface.
 	The application name is case insensitive.
@@ -59,7 +61,8 @@ function init( apps ) {
 function openApplication( app ) {
 	exec('open "' + appDir + app + appExt + '"', function (error) {
 		spinner.stop();
-		console.log('👍  Success');
+		console.log('🚀  Launching '+ app);
+		console.log('👍  Success')
 	  	if (error !== null) { console.log('exec error: ' + error); }
 	});
 }
