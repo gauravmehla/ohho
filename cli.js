@@ -1,10 +1,10 @@
 #! /usr/bin/env node
 const inquirer 	= require('inquirer');
 const escExit 	= require('esc-exit');
-const fs 		= require('fs');
-const exec 		= require('child_process').exec;
-const meow 		= require('meow');
-const ora 		= require('ora');
+const fs 	= require('fs');
+const exec 	= require('child_process').exec;
+const meow 	= require('meow');
+const ora 	= require('ora');
 
 // Applications warehouse in mac
 let appDir 		= '/Applications/';

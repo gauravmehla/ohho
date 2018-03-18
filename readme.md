@@ -1,4 +1,4 @@
-![wall](wall.jpg)
+![wall](media/wall.jpg)
 
 # Ohho
 
@@ -17,7 +17,7 @@ Supported platform :  <b>Mac</b> Only
 
 Just write the application name after `ohho` and it will take care of the rest!
 
-![](demo.gif)
+![](media/demo.gif)
 
 ```
 $ ohho --help
