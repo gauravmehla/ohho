@@ -1,6 +1,6 @@
 {
   "name": "ohho",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Fabulously run applications on mac.",
   "main": "index.js",
   "scripts": {
