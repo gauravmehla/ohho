@@ -85,12 +85,19 @@ if( cli.input.length == 0 ) {
 	init();
 } else {
 	// Try to look for application. If found more than one, ask from user.
+	spinner = ora('Loading ' + cli.input.join(' ')).start();
 	listApplications( cli.input.join(' ').toLowerCase() )
 		.then( list => { 
 			if( list.length === 0 ) { 
+				spinner.stop();
 				console.log('❗️ ' + cli.input.join(' ') + ' not found on this system.') 
 			} else {
-				list.length !== 1 ? init(list) : openApplication( list ) 
+				if( list.length !== 1 ) {
+					spinner.stop();
+					init(list);
+				} else {
+					openApplication( list );
+				}
 			}
 		})
 }
