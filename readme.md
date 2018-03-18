@@ -17,6 +17,8 @@ Supported platform :  <b>Mac</b> Only
 
 Just write the application name after `ohho` and it will take care of the rest!
 
+![](demo.gif)
+
 ```
 $ ohho --help
 
@@ -33,8 +35,6 @@ $ ohho --help
       $ ohho google
       $ ohho Google Chrome
       $ ohho "google chrome"
-      $ ohho sublime
-      $ ohho subl
     
     Run without arguments to use the interactive interface.
     The application name is case insensitive.
@@ -45,8 +45,6 @@ $ ohho --help
 
 Run `ohho` without arguments to launch the interactive UI.
 
-## How it works ?
-Basically it search for the string that you just entered after `ohho` inside all the applications present in `/Applications/`. Whatever matches that string will executed. If there are more than 1 matched results, then it simply prompt all the results and asks user.
 
 ## Created by
 
