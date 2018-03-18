@@ -20,10 +20,14 @@ const cli = meow(`
  
     Options
       --help 	View help docs
+      --version For current version
  
     Examples
       $ ohho google chrome
-      $ ohho google
+      $ ohho google 
+      $ ohho chrome
+      $ ohho Google Chrome
+      $ ohho "google chrome"
 	
 	Run without arguments to use the interactive interface.
 	The application name is case insensitive.
