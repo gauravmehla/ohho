@@ -16,8 +16,9 @@ Supported platform :  <b>Mac</b> Only
 ## Usage
 
 Just write the application name after `ohho` and it will take care of the rest!
-
-<center>	![](media/demo.gif) </center>
+<center>
+![](media/demo.gif)
+</center>
 
 ```
 $ ohho --help
