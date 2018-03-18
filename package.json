@@ -1,6 +1,6 @@
 {
   "name": "ohho",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "Fabulously run applications on mac.",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,8 @@
     "esc-exit": "^1.0.0",
     "inquirer": "^5.1.0",
     "inquirer-autocomplete-prompt": "^0.12.2",
-    "meow": "^4.0.0"
+    "meow": "^4.0.0",
+    "ora": "^2.0.0"
   },
   "engines": {
     "node": ">=6"

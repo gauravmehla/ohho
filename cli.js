@@ -4,10 +4,12 @@ const escExit 	= require('esc-exit');
 const fs 		= require('fs');
 const exec 		= require('child_process').exec;
 const meow 		= require('meow');
+const ora 		= require('ora');
 
 // Applications warehouse in mac
 let appDir 		= '/Applications/';
 let appExt 		= '.app';
+let spinner;
 
 if( process.platform !== 'darwin' ) {
 	console.log('Currently only Mac OSX is supported');
@@ -49,12 +51,14 @@ function init( apps ) {
 	  	}
 	}])
 	.then( answer => {
+		spinner = ora('Loading ' + answer.app).start();
 		openApplication( answer.app );
 	})
 }
 
 function openApplication( app ) {
 	exec('open "' + appDir + app + appExt + '"', function (error) {
+		spinner.stop();
 		console.log('👍  Success');
 	  	if (error !== null) { console.log('exec error: ' + error); }
 	});
