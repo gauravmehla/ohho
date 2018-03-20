@@ -45,6 +45,10 @@ $ ohho --help
 
 Run `ohho` without arguments to launch the interactive UI.
 
+## Related
+- [Inquirer.js](https://github.com/SBoudrias/Inquirer.js/)
+- [Meow](https://github.com/sindresorhus/meow)
+- [Ora](https://github.com/sindresorhus/ora)
 
 ## Created by
 
